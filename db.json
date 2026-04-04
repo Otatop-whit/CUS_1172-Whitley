@@ -6,30 +6,51 @@
       "steps": [
         {
           "id": "step1",
-          "type": "multiple-choice",
+          "type": "single-select",
           "instruction": "Choose your bun",
           "options": ["Sesame", "Brioche", "Lettuce Wrap"],
+          "feedback": null 
+        },{
+          "id": "step2",
+          "type": "mulitple-select",
+          "instruction": "Choose your toppings",
+          "options":["Lettuce", "Tomatos", "Onions", "Pickles", "Cheese"],
           "feedback": null
         },
         {
-          "id": "step2",
+          "id":"step3",
           "type": "text",
           "instruction": "Enter number of sauce servings",
           "feedback": {
-            "condition": "amount > 3",
-            "message": "Too much sauce might overpower the flavor!"
+              "condition": "amount > 3",
+              "message": "Too much sauce might overpower the flavor!"
           }
         },
         {
-          "id": "step3",
+          "id": "step4",
           "type": "image-selection",
           "instruction": "Choose your burger presentation",
-          "imageOptions": [
+          "imageOptions":[
             { "url": "img/presentation1.jpg", "isCorrect": false },
             { "url": "img/presentation2.jpg", "isCorrect": true },
-            { "url": "img/presentation3.jpg", "isCorrect": false }
-          ],
+            { "url": "img/presentation3.jpg", "isCorrect": false }],
           "feedback": null
+        },{
+          "id": "step5",
+          "type": "mulitple-select",
+          "instruction": "Extra Options",
+          "options":[
+            {
+              "id":"French Fries"
+            },
+            {
+              "id": "Extra Patty"
+            }
+          ],
+          "feedback":{
+              "condition": "amount > 4",
+              "message": "Too many "
+          }
         }
       ]
     },
@@ -39,13 +60,19 @@
       "steps": [
         {
           "id": "step1",
-          "type": "multiple-choice",
+          "type": "single-select",
           "instruction": "Choose your bun",
           "options": ["Sesame", "Brioche", "Lettuce Wrap"],
           "feedback": null 
+        },{
+          "id": "step2",
+          "type": "mulitple-select",
+          "instruction": "Choose your toppings",
+          "options":["Lettuce", "Tomatos", "Onions", "Pickles", "Cheese"],
+          "feedback": null
         },
         {
-          "id":"step2",
+          "id":"step3",
           "type": "text",
           "instruction": "Enter number of sauce servings",
           "feedback": {
@@ -54,7 +81,7 @@
           }
         },
         {
-          "id": "step3",
+          "id": "step4",
           "type": "image-selection",
           "instruction": "Choose your burger presentation",
           "imageOptions":[
@@ -62,6 +89,22 @@
             { "url": "img/presentation2.jpg", "isCorrect": true },
             { "url": "img/presentation3.jpg", "isCorrect": false }],
           "feedback": null
+        },{
+          "id": "step5",
+          "type": "mulitple-select",
+          "instruction": "Extra Options",
+          "options":[
+            {
+              "id":"French Fries"
+            },
+            {
+              "id": "Extra Patty"
+            }
+          ],
+          "feedback":{
+              "condition": "amount > 4",
+              "message": "Too many "
+          }
         }
       ]
     }
