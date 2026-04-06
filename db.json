@@ -55,10 +55,7 @@
               "cost": "3.75"
             }
           ],
-          "feedback":{
-              "condition": "amount > 4",
-              "message": "Too many "
-          }
+          "feedback": null
         }
       ]
     },
@@ -117,10 +114,7 @@
               "cost": "3.75"
             }
           ],
-          "feedback":{
-              "condition": "amount > 4",
-              "message": "Too many "
-          }
+          "feedback": null
         }
       ]
     }
