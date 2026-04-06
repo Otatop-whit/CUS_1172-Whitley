@@ -41,10 +41,12 @@
           "instruction": "Extra Options",
           "options":[
             {
-              "id":"French Fries"
+              "id":"French Fries",
+              "cost": "$3.45"
             },
             {
-              "id": "Extra Patty"
+              "id": "Extra Patty",
+              "cost": "$2.40"
             }
           ],
           "feedback":{
