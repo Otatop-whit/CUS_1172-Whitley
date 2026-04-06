@@ -87,9 +87,9 @@
           "type": "image-selection",
           "instruction": "Choose your burger presentation",
           "imageOptions":[
-            { "url": "img/presentation1.jpg", "isCorrect": false },
-            { "url": "img/presentation2.jpg", "isCorrect": true },
-            { "url": "img/presentation3.jpg", "isCorrect": false }],
+            { "url": "img/presentation4.jpg", "isCorrect": true },
+            { "url": "img/presentation5.jpg", "isCorrect": true },
+            { "url": "img/presentation6.jpg", "isCorrect": false }],
           "feedback": null
         },{
           "id": "step5",
