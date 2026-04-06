@@ -14,7 +14,7 @@
           "id": "step2",
           "type": "multiple-select",
           "instruction": "Choose your toppings",
-          "options":["Lettuce", "Tomatos", "Onions", "Pickles", "Cheese"],
+          "options":["Lettuce", "Tomatoes", "Onions", "Pickles", "Cheese"],
           "feedback": null
         },
         {
@@ -68,7 +68,7 @@
           "id": "step2",
           "type": "multiple-select",
           "instruction": "Choose your toppings",
-          "options":["Lettuce", "Tomatos", "Onions", "Pickles", "Cheese"],
+          "options":["Lettuce", "Tomatoes", "Onions", "Pickles", "Cheese"],
           "feedback": null
         },
         {
